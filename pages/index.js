@@ -1,9 +1,9 @@
 import Layout from '../components/Layout';
 import Fetch from 'isomorphic-unfetch';
 
-import Prices from '../components/Prices'
+import Prices from '../components/Prices';
 
-const index = (props) => (
+const Index = (props) => (
     <Layout>
         <div>
             <h1>Welcome to BitPrice</h1>
@@ -14,18 +14,18 @@ const index = (props) => (
     </Layout>
 );
 
-index.getInitialProps = async function() {
+Index.getInitialProps = async function() {
     const res = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
     const data = await res.json();
 
     // put bpi object from fetch call into bpi prop
     return {
-        bpi: data
-    }
+        bpi: data.bpi
+    };
 }
 
 // keep styles component based
 
 
 
-export default index;
+export default Index;
