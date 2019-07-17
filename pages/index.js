@@ -1,13 +1,15 @@
-import Navbar from '../components/Navbar'
+import Layout from '../components/Layout'
 
 
 const index = () => (
-    <div>
-        <Navbar />
-        <h1>Hello Next</h1>
-    </div>
+    <Layout>
+        <div>
+            <h1>Hello Next</h1>
+        </div>
+    </Layout>
 );
 
+// keep styles component based
 
 
 
