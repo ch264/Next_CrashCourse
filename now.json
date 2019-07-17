@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "alias": "my-aliased-nextjs-project",
+    "name": "Next.js_CrashCourse",
+    "builds": [
+        { "src": "package.json", "use": "@now/next" },
+        { "src": "*.js", "use": "@now/node" }
+      ]
+  }
