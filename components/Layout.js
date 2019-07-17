@@ -10,8 +10,10 @@ const Layout = (props) => (
         </Head>
 
         <Navbar />
-        {/* whatever page we are on, navbar is going to output the navbar */}
-        {props.children}
+        <div className="container">
+            {/* whatever page we are on, navbar is going to output the navbar */}
+            {props.children}
+        </div>
     </div>
 )
 
