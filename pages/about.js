@@ -1,13 +1,13 @@
 
-import Navbar from '../components/Navbar'
+import Layout from '../components/Layout'
 
 const about = () => (
-    <div>
-        <Navbar/>
-
-        <h1>About BitPrice</h1>
-        <p>App to view Bit Prices</p>
-    </div>
+    <Layout>
+        <div>
+            <h1>About BitPrice</h1>
+            <p>App to view Bit Prices</p>
+        </div>
+    </Layout>
 );
 
 
