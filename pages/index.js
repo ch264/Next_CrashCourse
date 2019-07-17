@@ -1,1 +1,10 @@
-export default () => (<div>Hello Next</div>)
+const index = () => (
+    <div>
+        <h1>Hello Next</h1>
+    </div>
+);
+
+
+
+
+export default index;

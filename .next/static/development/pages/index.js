@@ -47,19 +47,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _jsxFileName = "/Users/christina/Desktop/Next.js_CrashCourse/pages/index.js";
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
+
+var index = function index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 1
+      lineNumber: 2
     },
     __self: this
-  }, "Hello Next");
-});
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, "Hello Next"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (index);
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fchristina%2FDesktop%2FNext.js_CrashCourse%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************/
@@ -82,5 +91,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
