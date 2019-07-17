@@ -6,6 +6,15 @@ Following Tutorial on Next.js https://www.youtube.com/watch?v=IkOVe40Sy0U
 - Next.js
 - React.js
 - React-dom
+- Bootswatch
+
+## How to use
+
+Clone down the Repo and run
+```npm install```
+```npm run dev```
+
+then go to your localhost:3000
 
 ## Deployment
 
